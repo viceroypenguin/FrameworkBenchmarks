@@ -17,4 +17,4 @@ COPY Benchmarks/appsettings.mysql.json ./appsettings.json
 
 EXPOSE 8080
 
-ENTRYPOINT ["dotnet", "Benchmarks.dll", "scenarios=MvcDbSingleQueryLinqToDB,MvcDbMultiQueryLinqToDB,MvcDbFortunesLinqToDB"]
+ENTRYPOINT ["dotnet", "Benchmarks.dll", "scenarios=MvcDbSingleQueryLinqToDB,MvcDbMultiQueryLinqToDB,MvcDbMultiUpdateLinqToDB,MvcDbFortunesLinqToDB"]

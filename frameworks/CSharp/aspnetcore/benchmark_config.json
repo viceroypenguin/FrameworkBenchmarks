@@ -177,6 +177,7 @@
       "mw-linq2db-my": {
         "db_url": "/db/linq2db",
         "query_url": "/queries/linq2db?queries=",
+        "update_url": "/updates/linq2db?queries=",
         "fortune_url": "/fortunes/linq2db",
         "port": 8080,
         "approach": "Realistic",
@@ -375,6 +376,7 @@
       "mvc-linq2db-my": {
         "db_url": "/mvc/db/linq2db",
         "query_url": "/mvc/queries/linq2db?queries=",
+        "update_url": "/mvc/updates/linq2db?queries=",
         "fortune_url": "/mvc/fortunes/linq2db",
         "port": 8080,
         "approach": "Realistic",
